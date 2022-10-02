@@ -1,11 +1,4 @@
-const fullName = "rida Rafi syed"
+// Personal Message: Store a person’s name in a variable, and print a message to that person. Your message should be simple, such as, “Hello Eric, would you like to learn some Python today?”
 
-console.log("upper case :", fullName.toUpperCase())
-console.log("lower case :", fullName.toLowerCase())
-
-function titleCase(sentance) {
-    return sentance.toLowerCase().split(' ').map(function(word) {
-      return (word.charAt(0).toUpperCase() + word.slice(1));
-    }).join(' ');
-  }
-console.log("title case :", titleCase(fullName))
+var my_name ="Rida";
+console.log(`Hello ${my_name},  how was your day today?`);
